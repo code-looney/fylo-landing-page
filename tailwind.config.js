@@ -4,8 +4,18 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {},
+  theme: { 
+    extend: {
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif']
+      },
+      screens: {
+        'sm': '290px',
+      },
+      colors: {
+        'main': '#181f2a'
+      }
+    },
   },
   plugins: [],
 }
