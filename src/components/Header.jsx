@@ -5,7 +5,7 @@ import Logo from './Logo'
 const Header = (props) => {
     const { className } = props;
   return (
-    <header className={className}>
+    <header className='bg-main flex flex-wrap justify-between p-6'>
         <Logo />
         <Navbar />
     </header>
