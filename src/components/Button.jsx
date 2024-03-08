@@ -1,9 +1,11 @@
 import React from 'react'
 
 const Button = (props) => {
-    const { children } = props;
+    const { btnClassName, className, children } = props;
   return (
-    <button>{children}</button>
+    <div className={btnClassName}>
+      <button className={className}>{children}</button>
+    </div>
   )
 }
 
