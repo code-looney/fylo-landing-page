@@ -1,12 +1,10 @@
 import React from 'react'
 
-const Sub = () => {
+const Sub = (props) => {
+  const { subClassName, className, children } = props;
   return (
-    <div>
-        <p>
-            Fylo stores all your most important files in one secure location. Access them wherever 
-            you need, share and collaborate with friends family, and co-workers.
-        </p>
+    <div className={subClassName}>
+        <p className={className}>{children}</p>
     </div>
   )
 }

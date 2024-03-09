@@ -1,11 +1,11 @@
 import React from 'react'
 
 const Title = (props) => {
-  const { className, children } = props;
-  
+  const { titleClassName, className, children } = props;
+
   return (
-    <div>
-        <h1>All your files in one secure location, accessible anywhere.</h1>
+    <div className={titleClassName}>
+        <h1 className={className}>{children}</h1>
     </div>
   )
 }
