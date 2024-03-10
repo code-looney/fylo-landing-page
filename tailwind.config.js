@@ -13,7 +13,8 @@ export default {
         'sm': '290px',
       },
       colors: {
-        'main': '#181f2a'
+        'main': '#181f2a',
+        'sub': '#65e2d9'
       }
     },
   },
