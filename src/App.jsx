@@ -3,17 +3,18 @@ import Hero from "./components/Hero";
 import CTA from "./components/CTA";
 import Cards from "./components/Cards";
 import FileStorage from "./components/FileStorage";
-import Reviews from "./components/Reviews";
+import Testimonials from "./components/Testimonials";
+import Container from "./components/Container";
 
 export default function App() {
   return (
-    <div className=" font-sans">
+    <Container className=" font-sans">
       <Header />
       <Hero />
       <CTA />
       <Cards />
       <FileStorage />
-      <Reviews />
-    </div>
+      <Testimonials />
+    </Container>
   )
 }
