@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from './Title';
-import Sub from './Sub';
+import Sub from './Paragraph';
 import FileStorageImage from './FileStorageImage';
 import Container from './Container';
 import Icon from './Icon';

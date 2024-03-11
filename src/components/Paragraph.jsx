@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Sub = (props) => {
+export const Paragraph = (props) => {
   const { subClassName, className, children } = props;
   return (
     <div className={subClassName}>
@@ -9,4 +9,4 @@ const Sub = (props) => {
   )
 }
 
-export default Sub
+export default Paragraph

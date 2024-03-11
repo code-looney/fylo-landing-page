@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './Title';
-import Sub from './Sub';
+import Sub from './Paragraph';
 import Icon from './Icon';
 
 const Cards = () => {
