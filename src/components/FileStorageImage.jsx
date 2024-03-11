@@ -1,9 +1,11 @@
 import React from 'react'
 
-const FileStorageImage = () => {
+const FileStorageImage = (props) => {
+  const { className, storageClassName } = props;
+
   return (
-    <div>
-        <img src="src/images/illustration-stay-productive.png" alt="" />
+    <div className={className}>
+        <img className={storageClassName} src="src/images/illustration-stay-productive.png" alt="" />
     </div>
   )
 }
