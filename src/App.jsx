@@ -5,6 +5,7 @@ import Cards from "./components/Cards";
 import FileStorage from "./components/FileStorage";
 import Testimonials from "./components/Testimonials";
 import Container from "./components/Container";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Cards />
       <FileStorage />
       <Testimonials />
+      <Footer />
     </Container>
   )
 }

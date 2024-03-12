@@ -15,7 +15,8 @@ export default {
       colors: {
         'main': '#181f2a',
         'sub': '#65e2d9',
-        'test': '#202a3c'
+        'test': '#202a3c',
+        'sec': '#0b1523'
       }
     },
   },

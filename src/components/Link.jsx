@@ -1,10 +1,10 @@
 import React from 'react'
 
 const Link = (props) => {
-    const { className, children } = props;
+    const { href, className, children } = props;
 
   return (
-    <a className={className}>{children}</a>
+    <a href={href} className={className}>{children}</a>
   )
 }
 

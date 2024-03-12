@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Container from './Container';
 
 const Hero = () => {
   return (
-        <div className="bg-main mx-auto flex justify-center py-8 px-10"><img src="src/images/illustration-intro.png" alt="" /></div>
+        <Container className="bg-main mx-auto flex justify-center py-8 px-10"><img src="src/images/illustration-intro.png" alt="" /></Container>
   )
 }
 

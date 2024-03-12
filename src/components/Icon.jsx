@@ -1,11 +1,9 @@
 import React from 'react'
 
 const Icon = (props) => {
-    const { className, iconClassName, iconURL } = props;
+    const {iconClassName, iconURL } = props;
   return (
-    <div className={className}>
         <img className={iconClassName} src={iconURL} alt="" />
-    </div>
   )
 }
 

@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Logo = () => {
+const Logo = (props) => { 
+  const  { className } = props;
   return (
-    <div className='w-24'>
+    <div className={className}>
         <img src="src/images/logo.svg" alt="" />
     </div>
   )
