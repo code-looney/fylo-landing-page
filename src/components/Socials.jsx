@@ -5,17 +5,17 @@ import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
 const Socials = (props) => {
-    const { socialClassName } = props; 
+    const { socialClassName, className } = props; 
   return (
-    <Container className={socialClassName}>
+    <Container className={className}>
         <Container className='border hover:border-sub hover:text-sub p-2 rounded-full cursor-pointer'>
-            <FaFacebookF />
+            <FaFacebookF className={socialClassName} />
         </Container>
         <Container className='border hover:border-sub hover:text-sub p-2 rounded-full cursor-pointer'>
-            <FaTwitter />
+            <FaTwitter className={socialClassName} />
         </Container>
         <Container className='border hover:border-sub hover:text-sub p-2 rounded-full cursor-pointer'>
-            <FaInstagram />
+            <FaInstagram className={socialClassName} />
         </Container>
     </Container>
   )
