@@ -13,10 +13,10 @@ const Footer = () => {
         <Container className='w-full md:w-[1200px] flex items-end md:items-end'>
           <Container className='w-full md:h-[220px] flex flex-col gap-10 md:gap-[120px] md:flex-row md:justify-center outline'>
             <Container className='flex flex-col gap-10'>
-              <Container className='w-52 flex translate-x-[20px] md:translate-y-[-80px] md:absolute'>
+              <Container className='w-52 flex translate-x-[50px] md:translate-y-[-80px] md:absolute'>
                 <Logo />
               </Container>
-              <Container className='flex gap-5 pl-5 md:pl-0'>
+              <Container className='flex gap-5 pl-8 md:pl-0'>
                 <Container className='w-5 h-full translate-y-[8px] '>
                   <Icon iconURL='src/images/icon-location.svg' />
               </Container>
@@ -29,7 +29,7 @@ const Footer = () => {
                   dolore magna aliqua</Paragraph>
               </Container>
             </Container>
-            <Container className='flex flex-col gap-5 pl-5 md:pl-0'>
+            <Container className='flex flex-col gap-5 pl-8 md:pl-0'>
                 <Container className='flex gap-3 items-center'>
                   <Container className='w-[15px]'>
                     <Icon iconURL='src/images/icon-phone.svg' />
@@ -43,7 +43,7 @@ const Footer = () => {
                   <Link>example@fylo.com</Link>
                 </Container>
             </Container>
-            <Container className='flex flex-col gap-10 md:flex-row pl-5 md:pl-0'>
+            <Container className='flex flex-col gap-10 md:flex-row pl-8 md:pl-0'>
               <Container className='flex flex-col gap-4'>
                   <Link href='#'>About Us</Link>
                   <Link href='#'>Jobs</Link>
