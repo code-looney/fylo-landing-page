@@ -9,9 +9,9 @@ import Socials from './Socials';
 const Footer = () => {
 
   return (
-    <Container className='bg-sec text-white h-[1100px] flex md:justify-center'>
-        <Container className='w-full md:w-[1200px] flex items-end md:items-center'>
-          <Container className='w-full flex flex-col gap-10 md:flex-row'>
+    <Container className='bg-sec text-white h-[1100px] md:h-[500px] flex md:justify-center'>
+        <Container className='w-full md:w-[1200px] flex items-end md:items-end'>
+          <Container className='w-full md:h-[220px] flex flex-col gap-10 md:gap-[120px] md:flex-row md:justify-center outline'>
             <Container className='flex flex-col gap-10'>
               <Container className='w-52 flex translate-x-[20px] md:translate-y-[-80px] md:absolute'>
                 <Logo />
@@ -20,7 +20,12 @@ const Footer = () => {
                 <Container className='w-5 h-full translate-y-[8px] '>
                   <Icon iconURL='src/images/icon-location.svg' />
               </Container>
-                <Paragraph className='font-thin'>Lorem ipsum dolor sit amet,<br className='block md:hidden' /> consectetur adipiscing elit, sed do<br className='block md:hidden' /> eiusmod tempor incididunt ut labore<br className='block md:hidden' /> et
+                <Paragraph className='font-thin'>Lorem ipsum dolor sit amet,
+                <br className='block md:hidden' />consectetur
+                <br className='hidden md:block' />adipiscing elit, sed do
+                <br className='block md:hidden' />eiusmod tempor
+                <br className='hidden md:block' />incididunt ut labore
+                <br className='block md:hidden' />et
                   dolore magna aliqua</Paragraph>
               </Container>
             </Container>
