@@ -11,9 +11,9 @@ const Footer = () => {
   return (
     <Container className='bg-sec text-white h-[1100px] md:h-[500px] flex md:justify-center'>
         <Container className='w-full md:w-[1200px] flex items-end md:items-end'>
-          <Container className='w-full md:h-[220px] flex flex-col gap-10 md:gap-[120px] md:flex-row md:justify-center outline'>
+          <Container className='w-full md:h-[220px] flex flex-col gap-10 md:gap-[120px] md:flex-row md:justify-center'>
             <Container className='flex flex-col gap-10'>
-              <Container className='w-52 flex translate-x-[50px] md:translate-y-[-80px] md:absolute'>
+              <Container className='w-52 flex translate-x-[50px] md:translate-x-[15px] md:translate-y-[-80px] md:absolute'>
                 <Logo />
               </Container>
               <Container className='flex gap-5 pl-8 md:pl-0'>
