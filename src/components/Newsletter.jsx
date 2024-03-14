@@ -9,8 +9,8 @@ const Newsletter = (props) => {
     const { className } = props;
 
   return (
-    <Container className='w-full flex justify-center translate-y-[200px] md:translate-y-[100px]'>
-        <Container className='w-96 md:w-[900px] bg-intro text-white flex flex-col gap-4 items-center text-center px-5 py-11 rounded-lg shadow-lg'>
+    <Container className='bg-body w-full flex justify-center'>
+        <Container className='w-96 md:w-[900px] bg-intro text-white flex flex-col gap-4 items-center text-center px-5 py-11 rounded-lg shadow-lg translate-y-[200px] md:translate-y-[100px]'>
             <Container>
                 <Title className='text-[21px] md:text-[31px] font-medium'>Get early access today</Title>
             </Container>

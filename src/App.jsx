@@ -11,7 +11,7 @@ import BackgroundCurve from "./components/BackgroundCurve";
 
 export default function App() {
   return (
-    <Container className="bg-body font-sans">
+    <Container className="font-sans">
       <Header />
       <Hero />
       <BackgroundCurve />

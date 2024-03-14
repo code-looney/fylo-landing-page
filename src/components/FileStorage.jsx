@@ -8,7 +8,7 @@ import Link from './Link';
 
 const FileStorage = () => {
   return (
-    <Container className='text-white flex flex-col md:flex-row gap-[60px] h-[1000px] md:h-[800px] items-center justify-center px-8'>
+    <Container className=' bg-body text-white flex flex-col md:flex-row gap-[60px] h-[1000px] md:h-[800px] items-center justify-center px-8'>
         <Container className='md:flex md:w-full md:justify-center md:flex-row flex-col items-center md:gap-14' >
         <FileStorageImage storageClassName='md:w-[700px]' />
           <Container className='flex flex-col gap-4 pt-[100px] md:pt-0'>

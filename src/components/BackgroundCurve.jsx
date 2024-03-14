@@ -3,7 +3,7 @@ import Container from './Container';
 
 const BackgroundCurve = (props) => {
   return (
-    <img className=' translate-y-[-60px] relative z-20' src="src/images/bg-curvy-mobile.svg" alt="" />
+    <img className='w-full translate-y-[-70px] absolute z-20' src="src/images/bg-curvy-mobile.svg" alt="" />
   )
 }
 
