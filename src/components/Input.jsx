@@ -1,9 +1,30 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const Input = (props) => {
-    const { className, placeHolder} = props;
+      const [email,  setEmail] = useState('');
+      const [validation,  setValidation] = useState(false);
+    const { className, placeHolder, value} = props;
+    
+
+
+    function formValidationSubmit(e) {
+        e.preventDefault()
+        if (!email) {
+            setValidation('Please enter a valid email Adress')
+            return;
+        } 
+        setEmail('')
+        setValidation('')
+            
+    }
+
   return (
-    <input className={className} placeholder={placeHolder} type="email" />
+    <>
+    <form className='flex' onSubmit={formValidationSubmit}>
+    <input value={email} className={className} placeholder={placeHolder} type="text" onChange={(e) => setEmail(e.target.value)} />
+    <span className='absolute translate-y-[48px] translate-x-[30px] text-[10px] text-red-600'>{validation}</span>
+    </form>
+    </>
   )
 }
 
