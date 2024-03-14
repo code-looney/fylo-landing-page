@@ -7,12 +7,14 @@ import Testimonials from "./components/Testimonials";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
 import Newsletter from "./components/Newsletter";
+import BackgroundCurve from "./components/BackgroundCurve";
 
 export default function App() {
   return (
-    <Container className=" font-sans">
+    <Container className="bg-body font-sans">
       <Header />
       <Hero />
+      <BackgroundCurve />
       <CTA />
       <Cards />
       <FileStorage />

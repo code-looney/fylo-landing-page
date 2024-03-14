@@ -7,7 +7,7 @@ import Container from './Container';
 const CTA = (props) => {
   console.log(props)
   return (
-    <Container className='bg-main flex flex-col gap-5 text-center text-white'>
+    <Container className='flex flex-col gap-5 text-center text-white'>
         <Title className=' text-[30px] md:text-[35px] font-bold'>All your files in one secure
         <br className='block md:hidden'/>location, <br className='hidden md:block'/>accessible
         <br className='block md:hidden'/> anywhere.</Title>

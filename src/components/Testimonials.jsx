@@ -6,7 +6,7 @@ import Title from './Title';
 
 const Testimonials = () => {
   return (
-    <Container className='bg-main pb-[500px] relative'>
+    <Container className='pb-[500px] md:pb-[150px] relative'>
     <Container className='w-3/4 mx-auto text-white relative z-40'>
     <Icon className='relative translate-y-[10px] translate-x-[10px] md:translate-x-[-10px]' iconURL='src/images/bg-quotes.png' />
         <Container className='flex md:flex-row relative flex-col gap-6'>

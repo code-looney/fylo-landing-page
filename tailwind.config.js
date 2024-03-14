@@ -13,11 +13,12 @@ export default {
         'sm': '290px',
       },
       colors: {
-        'main': '#181f2a',
+        'main': '#1B2330',
         'sub': '#65e2d9',
         'test': '#202a3c',
         'sec': '#0b1523',
-        'intro': '#1c2431'
+        'intro': '#1c2431',
+        'body': '#191E2A'
       }
     },
   },

@@ -6,7 +6,7 @@ import Container from './Container';
 const Cards = () => {
 
   return (
-    <Container className='bg-main'>
+    <Container>
             <Container className='flex flex-col m-auto md:grid md:grid-rows-2 md:grid-flow-col md:gap-x-[0px] md:w-5/6 gap-[100px] text-center pt-[200px] text-white'>
               <Container className='flex justify-end flex-col gap-2'>
                   <Container className='flex justify-center pb-7'>
