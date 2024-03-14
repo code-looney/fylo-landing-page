@@ -16,7 +16,8 @@ export default {
         'main': '#181f2a',
         'sub': '#65e2d9',
         'test': '#202a3c',
-        'sec': '#0b1523'
+        'sec': '#0b1523',
+        'intro': '#1c2431'
       }
     },
   },

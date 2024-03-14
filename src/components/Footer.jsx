@@ -43,21 +43,21 @@ const Footer = () => {
                   <Link>example@fylo.com</Link>
                 </Container>
             </Container>
-            <Container className='flex flex-col gap-10 md:flex-row pl-8 md:pl-0'>
+            <Container className='flex flex-col gap-10 md:flex-row pl-8 md:pl-0 font-thin'>
               <Container className='flex flex-col gap-4'>
-                  <Link href='#'>About Us</Link>
-                  <Link href='#'>Jobs</Link>
-                  <Link href='#'>Press</Link>
-                  <Link href='#'>Blog</Link>
+                  <Link className=' hover:font-medium' href='#'>About Us</Link>
+                  <Link className=' hover:font-medium' href='#'>Jobs</Link>
+                  <Link className=' hover:font-medium' href='#'>Press</Link>
+                  <Link className=' hover:font-medium' href='#'>Blog</Link>
             </Container>
                 <Container className='flex flex-col gap-4'>
-                  <Link href='#'>Contact Us</Link>
-                  <Link href='#'>Terms</Link>
-                  <Link href='#'>Privacy</Link>
+                  <Link className=' hover:font-medium' href='#'>Contact Us</Link> 
+                  <Link className=' hover:font-medium' href='#'>Terms</Link>
+                  <Link className=' hover:font-medium' href='#'>Privacy</Link>
                 </Container>
             </Container>
             <Container className='flex w- h-[150px] items-center md:items-start justify-center'>
-              <Socials className='flex gap-3' />
+              <Socials className='flex flex-wrap gap-3' />
             </Container>
           </Container>
         </Container>

@@ -6,6 +6,7 @@ import FileStorage from "./components/FileStorage";
 import Testimonials from "./components/Testimonials";
 import Container from "./components/Container";
 import Footer from "./components/Footer";
+import Newsletter from "./components/Newsletter";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Cards />
       <FileStorage />
       <Testimonials />
+      <Newsletter />
       <Footer />
     </Container>
   )
