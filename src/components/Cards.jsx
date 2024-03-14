@@ -6,8 +6,8 @@ import Container from './Container';
 const Cards = () => {
 
   return (
-    <Container>
-            <Container className='bg-body md:w-full flex flex-col m-auto md:flex md:flex-row md:gap-x-[0px] gap-[100px] text-center pt-[200px] text-white'>
+    <Container className='bg-body relative z-30 translate-y-[60px]'>
+            <Container className='flex flex-col m-auto md:grid md:grid-rows-2 md:grid-flow-col md:gap-x-[0px] md:w-5/6 gap-[100px] text-center pt-[150px] md:pt-[100px] text-white'>
               <Container className='flex justify-end flex-col gap-2'>
                   <Container className='flex justify-center pb-7'>
                     <Icon iconURL='src/images/icon-access-anywhere.svg' />

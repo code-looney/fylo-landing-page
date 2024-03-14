@@ -18,7 +18,7 @@ export default {
         'test': '#202a3c',
         'sec': '#0b1523',
         'intro': '#1c2431',
-        'body': '#191E2A'
+        'body': '#171F2B',
       }
     },
   },
