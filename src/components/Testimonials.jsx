@@ -8,7 +8,7 @@ const Testimonials = () => {
   return (
     <Container className='bg-body md:pb-[70px] relative'>
     <Container className='w-3/4 mx-auto text-white relative z-40'>
-    <Icon className='relative translate-y-[10px] translate-x-[10px] md:translate-x-[-10px]' iconURL='src/images/bg-quotes.png' />
+    <Icon className='relative translate-y-[10px] translate-x-[10px] md:translate-x-[-10px]' iconURL='images/bg-quotes.png' />
         <Container className='flex md:flex-row relative flex-col gap-6'>
             <Container className='bg-test flex flex-col p-7 gap-5 rounded'>
                 <Container><Paragraph className='font-thin md:text-[15px] text-[12px] leading-6'> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
