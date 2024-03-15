@@ -20,7 +20,7 @@ const Newsletter = (props) => {
             </Container>
             <Container className="md:flex md:flex-row flex flex-col gap-6 pt-5 items-center">
                 <Container className='flex flex-col'>
-                        <Input className='w-80 md:w-[420px] h-11 font-thin rounded-full text-[12px] pl-10 text-black' placeHolder='email@example.com' />
+                        <Input className='w-80 md:w-[420px] h-11 font-thin rounded-full text-[12px] pl-8 text-black' placeHolder='email@example.com' />
                 </Container>
                 <Container>
                     <Button className='w-80 md:w-[200px] h-12 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>Get Started For Free</Button>

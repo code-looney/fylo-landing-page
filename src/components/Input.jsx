@@ -3,13 +3,13 @@ import React, {useState} from 'react'
 const Input = (props) => {
       const [email,  setEmail] = useState('');
       const [validation,  setValidation] = useState(false);
-    const { className, placeHolder, value} = props;
+      const { className, placeHolder, value} = props;
     
 
 
     function formValidationSubmit(e) {
         e.preventDefault()
-        if (!email) {
+        if (!email.includes('@')) {
             setValidation('Please enter a valid email Adress')
             return;
         } 
