@@ -17,7 +17,7 @@ const FileStorage = () => {
               <Sub className='text-[14px] md:text-[16px]'>  Securely share files and folders with friends, family and colleagues for live<br className='md:block hidden' /> collaboration. No email attachments required.</Sub>
                   <Container className='w-[145px] md:w-[135px] flex items-center gap-1 border-b-[1px] border-b-sub pb-[5px]'>
                       <Link className='text-sub font-thin text-[14px] md:text-[13px]' >See how Fylo works</Link>
-                      <Icon iconURL='src/images/icon-arrow.svg' />
+                      <Icon iconURL='images/icon-arrow.svg' />
                   </Container>
           </Container>
         </Container>

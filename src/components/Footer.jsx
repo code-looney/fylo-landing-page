@@ -18,7 +18,7 @@ const Footer = () => {
               </Container>
               <Container className='flex gap-5 pl-8 md:pl-0'>
                 <Container className='w-5 h-full translate-y-[8px] '>
-                  <Icon iconURL='src/images/icon-location.svg' />
+                  <Icon iconURL='images/icon-location.svg' />
               </Container>
                 <Paragraph className='font-thin'>Lorem ipsum dolor sit amet,
                 <br className='block md:hidden' />consectetur
@@ -32,13 +32,13 @@ const Footer = () => {
             <Container className='flex flex-col gap-5 pl-8 md:pl-0'>
                 <Container className='flex gap-3 items-center'>
                   <Container className='w-[15px]'>
-                    <Icon iconURL='src/images/icon-phone.svg' />
+                    <Icon iconURL='images/icon-phone.svg' />
                   </Container>
                   <Link>+1-543-123-4567</Link>
                 </Container>
                 <Container className='flex gap-3 items-center'>
                   <Container className='w-[25px]'>
-                    <Icon iconURL='src/images/icon-email.svg' />
+                    <Icon iconURL='images/icon-email.svg' />
                   </Container>
                   <Link>example@fylo.com</Link>
                 </Container>

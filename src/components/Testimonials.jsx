@@ -15,7 +15,7 @@ const Testimonials = () => {
               become a well-oiled collaboration machine.</Paragraph></Container>
                 <Container className='flex gap-3'>
                     <Container className='w-8'>
-                        <Icon iconClassName='rounded-full' iconURL='src/images/profile-1.jpg' />
+                        <Icon iconClassName='rounded-full' iconURL='images/profile-1.jpg' />
                     </Container>
                     <Container>
                         <Title className='text-[12px] font-bold tracking-widest'>Satish Patel</Title>
@@ -28,7 +28,7 @@ const Testimonials = () => {
               become a well-oiled collaboration machine.</Paragraph></Container>
                 <Container className='flex gap-3'>
                     <Container className='w-8'>
-                        <Icon iconClassName='rounded-full' iconURL='src/images/profile-2.jpg' />
+                        <Icon iconClassName='rounded-full' iconURL='images/profile-2.jpg' />
                     </Container>
                     <Container>
                         <Title className='text-[12px] font-bold tracking-widest'>Bruce McKenzie</Title>
@@ -41,7 +41,7 @@ const Testimonials = () => {
               become a well-oiled collaboration machine.</Paragraph></Container>
                 <Container className='flex gap-3'>
                     <Container className='w-8'>
-                        <Icon iconClassName='rounded-full' iconURL='src/images/profile-3.jpg' />
+                        <Icon iconClassName='rounded-full' iconURL='images/profile-3.jpg' />
                     </Container>
                     <Container>
                         <Title className='text-[12px] font-bold tracking-widest'>Iva Boyd</Title>

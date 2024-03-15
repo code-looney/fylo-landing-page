@@ -5,7 +5,7 @@ const FileStorageImage = (props) => {
 
   return (
     <div className={className}>
-        <img className={storageClassName} src="src/images/illustration-stay-productive.png" alt="" />
+        <img className={storageClassName} src="images/illustration-stay-productive.png" alt="" />
     </div>
   )
 }
