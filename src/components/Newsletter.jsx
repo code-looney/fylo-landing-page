@@ -5,8 +5,21 @@ import Sub from './Paragraph';
 import Button from './Button';
 import Input from './Input';
 
-const Newsletter = (props) => {   
+const Newsletter = (props) => {
+    const [email, setEmail] = useState('');
+     const [validation,  setValidation] = useState(false);   
     const { className } = props;
+
+    function formValidationSubmit(e) {
+        e.preventDefault()
+        if (!email.includes('@')) {
+            setValidation('Please enter a valid email Adress')
+            return;
+        } 
+        setEmail('')
+        setValidation('')
+            
+    }
 
 
   return (
@@ -20,10 +33,13 @@ const Newsletter = (props) => {
             </Container>
             <Container className="md:flex md:flex-row flex flex-col gap-6 pt-5 items-center">
                 <Container className='flex flex-col'>
-                        <Input className='w-80 md:w-[420px] h-11 font-thin rounded-full text-[12px] pl-8 text-black' placeHolder='email@example.com' />
+                    <form className='flex' onSubmit={formValidationSubmit}>
+                        <Input value={email} onEmailChange={(e) => setEmail(e.target.value)} className='w-80 md:w-[420px] h-11 font-thin rounded-full text-[12px] pl-8 text-black' placeHolder='email@example.com' />
+                        <span className='absolute translate-y-[48px] translate-x-[30px] text-[10px] text-red-600'>{validation}</span>
+                    </form>
                 </Container>
                 <Container>
-                    <Button className='w-80 md:w-[200px] h-12 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>Get Started For Free</Button>
+                    <Button onEmailClick={formValidationSubmit} className='w-80 md:w-[200px] h-12 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 text-white'>Get Started For Free</Button>
                 </Container>
             </Container>
         </Container>

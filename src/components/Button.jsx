@@ -4,7 +4,7 @@ const Button = (props) => {
     const { btnClassName, className, children } = props;
   return (
     <div className={btnClassName}>
-      <button className={className}>{children}</button>
+      <button onClick={props.onEmailClick} className={className}>{children}</button>
     </div>
   )
 }
